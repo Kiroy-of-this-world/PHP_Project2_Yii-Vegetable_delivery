@@ -1,0 +1,182 @@
+.p_value{
+    margin-bottom: 2px;
+    width: 100%;
+    text-align: left;
+}
+
+.p_value_bold{
+    font-weight: bold;
+}
+
+.products_btn{
+    background-color: #27A0A0;
+    border-color: #45D6D6;
+}
+.products_btn:hover{
+    //background-color: #138213;
+    //border-color: darkgreen;
+    background-color: #45D6D6;
+    border-color: #27A0A0;
+}
+
+.search-input{
+    margin-right: 15px;
+}
+
+.row, .orders{
+
+    button, input[type="submit"] {
+        -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+        -webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+        box-shadow: inset 0px 1px 0px 0px #45D6D6;
+        background-color: #2CBBBB;
+        border: 1px solid #27A0A0;
+        display: inline-block;
+        cursor: pointer;
+        color: #FFFFFF;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 14px;
+        width: 80%;
+        padding: 8px 18px;
+        margin: 15px 30px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    button:hover, input[type="submit"]:hover {
+        background: linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+        background-color: #34CACA;
+    }
+
+    //.btn-deleteBasket{
+    //    background-color: white;
+    //    color: black;
+    //    margin: 0;
+    //}
+
+    img {
+        width: 100px;
+    }
+
+
+    input[type="text"],
+    input[type="file"],
+    input[type="tel"],
+    select,
+    .product-info {
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        outline: none;
+        display: block;
+        width: 100%;
+        padding: 7px;
+        margin: 30px;
+        border: none;
+        border-bottom: 1px solid #ddd;
+        background: white;
+        font: 16px Arial, Helvetica, sans-serif;
+        height: 35px;
+    }
+
+    input[type="submit"] {
+        margin: 30px;
+    }
+
+    form #category-name,
+    form #product-category,
+    form #product-sort,
+    form #product-price {
+        min-width: 250px;
+    }
+
+    form #product-category,
+    form #product-sort {
+        margin-bottom: 0;
+    }
+
+    form input[type="submit"] {
+        max-width: 200px;
+    }
+
+    .category {
+        margin: 5px 30px 0px 60px;
+        width: 70%;
+        background: linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+        background-color: #34CACA;
+    }
+
+    .category:hover {
+        background: #2CBBBB;
+    }
+
+    button:first-child {
+        margin-bottom: 0;
+    }
+
+    .delete-btn {
+        margin: 30px;
+        max-height: 35px;
+    }
+
+    .product-info,
+    .delete-btn,
+    input[type="tel"] {
+        margin-top: 0;
+    }
+
+    input[type="text"],
+    .product-info {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    input[type="submit"] {
+        margin-top: 0;
+    }
+
+    p {
+        margin-top: 10px;
+    }
+
+    label {
+        margin: 0px 0px 0px 7px;
+    }
+
+    .rows {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .rows:first-child {
+        margin-top: 0px;
+    }
+
+    .column {
+        width: 235px;
+    }
+
+    .column:first-child {
+        margin-right: 30px;
+    }
+
+    .search-form {
+        padding: 15px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    .search-form--input {
+        margin: 0;
+    }
+
+    #basket-form {
+        width: 100%;
+    }
+    #address{
+        margin-left: 30px;
+    }
+}

@@ -1,0 +1,161 @@
+.p_value {
+  margin-bottom: 2px;
+  width: 100%;
+  text-align: left;
+}
+
+.p_value_bold {
+  font-weight: bold;
+}
+
+.products_btn {
+  background-color: #27A0A0;
+  border-color: #45D6D6;
+}
+
+.products_btn:hover {
+  background-color: #45D6D6;
+  border-color: #27A0A0;
+}
+
+.search-input {
+  margin-right: 15px;
+}
+
+.row button, .row input[type=submit], .orders button, .orders input[type=submit] {
+  -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+  box-shadow: inset 0px 1px 0px 0px #45D6D6;
+  background-color: #2CBBBB;
+  border: 1px solid #27A0A0;
+  display: inline-block;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 14px;
+  width: 80%;
+  padding: 8px 18px;
+  margin: 15px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.row button:hover, .row input[type=submit]:hover, .orders button:hover, .orders input[type=submit]:hover {
+  background: linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+  background-color: #34CACA;
+}
+.row img, .orders img {
+  width: 100px;
+}
+.row input[type=text],
+.row input[type=file],
+.row input[type=tel],
+.row select,
+.row .product-info, .orders input[type=text],
+.orders input[type=file],
+.orders input[type=tel],
+.orders select,
+.orders .product-info {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  display: block;
+  width: 100%;
+  padding: 7px;
+  margin: 30px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: white;
+  font: 16px Arial, Helvetica, sans-serif;
+  height: 35px;
+}
+.row input[type=submit], .orders input[type=submit] {
+  margin: 30px;
+}
+.row form #category-name,
+.row form #product-category,
+.row form #product-sort,
+.row form #product-price, .orders form #category-name,
+.orders form #product-category,
+.orders form #product-sort,
+.orders form #product-price {
+  min-width: 250px;
+}
+.row form #product-category,
+.row form #product-sort, .orders form #product-category,
+.orders form #product-sort {
+  margin-bottom: 0;
+}
+.row form input[type=submit], .orders form input[type=submit] {
+  max-width: 200px;
+}
+.row .category, .orders .category {
+  margin: 5px 30px 0px 60px;
+  width: 70%;
+  background: linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+  background-color: #34CACA;
+}
+.row .category:hover, .orders .category:hover {
+  background: #2CBBBB;
+}
+.row button:first-child, .orders button:first-child {
+  margin-bottom: 0;
+}
+.row .delete-btn, .orders .delete-btn {
+  margin: 30px;
+  max-height: 35px;
+}
+.row .product-info,
+.row .delete-btn,
+.row input[type=tel], .orders .product-info,
+.orders .delete-btn,
+.orders input[type=tel] {
+  margin-top: 0;
+}
+.row input[type=text],
+.row .product-info, .orders input[type=text],
+.orders .product-info {
+  margin-top: 0;
+  margin-left: 0;
+}
+.row input[type=submit], .orders input[type=submit] {
+  margin-top: 0;
+}
+.row p, .orders p {
+  margin-top: 10px;
+}
+.row label, .orders label {
+  margin: 0px 0px 0px 7px;
+}
+.row .rows, .orders .rows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.row .rows:first-child, .orders .rows:first-child {
+  margin-top: 0px;
+}
+.row .column, .orders .column {
+  width: 235px;
+}
+.row .column:first-child, .orders .column:first-child {
+  margin-right: 30px;
+}
+.row .search-form, .orders .search-form {
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row .search-form--input, .orders .search-form--input {
+  margin: 0;
+}
+.row #basket-form, .orders #basket-form {
+  width: 100%;
+}
+.row #address, .orders #address {
+  margin-left: 30px;
+}
+
+/*# sourceMappingURL=products.css.map */
